@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dev-env:
+    container_name: deep-learning-dev
+    build: ./
+    volumes:
+      - ./:/local
+    stdin_open: true
+    tty: true
