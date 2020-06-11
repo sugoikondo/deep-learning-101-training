@@ -8,7 +8,7 @@ def AND(x1, x2):
 
 
 if __name__ == '__main__':
-    AND(0, 0)
-    AND(1, 0)
-    AND(0, 1)
-    AND(1, 1)
+    print(AND(0, 0))
+    print(AND(1, 0))
+    print(AND(0, 1))
+    print(AND(1, 1))
