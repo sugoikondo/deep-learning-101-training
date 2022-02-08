@@ -1,5 +1,5 @@
 
-FROM python:3.8.3-alpine3.12
+FROM python:3.10.0a7-alpine3.12
 
 RUN apk add bash procps curl gcc make g++ file
 
